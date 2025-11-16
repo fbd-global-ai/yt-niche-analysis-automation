@@ -17,7 +17,7 @@ from urllib import parse, request
 
 # ================== CONFIG ==================
 
-YOUTUBE_API_KEY = "YOUR_API_KEY_HERE"  # <-- PUT YOUR API KEY HERE
+YOUTUBE_API_KEY = "AIzaSyCoqz_WZaGbxhXkMpHo2s-T46qygmrmrHo"  # <-- PUT YOUR API KEY HERE
 MAX_RESULTS_PER_QUERY = 25             # how many videos to fetch per niche
 INPUT_FILE = "niches.txt"
 OUTPUT_FILE = "niche_report.csv"
@@ -111,7 +111,7 @@ def save_results_to_csv(results: list, file_path: str) -> None:
 def main():
     print("=== YouTube Niche Analysis Automation ===")
 
-    if YOUTUBE_API_KEY == "AIzaSyCoqz_WZaGbxhXkMpHo2s-T46qygmrmrHo":
+   if YOUTUBE_API_KEY == "YOUR_API_KEY_HERE":
         print("[ERROR] Please set your YOUTUBE_API_KEY in the script.")
         return
 
