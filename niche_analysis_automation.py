@@ -111,7 +111,7 @@ def save_results_to_csv(results: list, file_path: str) -> None:
 def main():
     print("=== YouTube Niche Analysis Automation ===")
 
-    if YOUTUBE_API_KEY == "YOUR_API_KEY_HERE":
+    if YOUTUBE_API_KEY == "AIzaSyCoqz_WZaGbxhXkMpHo2s-T46qygmrmrHo":
         print("[ERROR] Please set your YOUTUBE_API_KEY in the script.")
         return
 
